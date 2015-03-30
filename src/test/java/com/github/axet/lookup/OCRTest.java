@@ -29,29 +29,13 @@ public class OCRTest {
                 e.printStackTrace();
             }
             k = Double.parseDouble(str.substring(0, str.length() - 2));
-            if ( k >= 3.0 && k <= 5){
+            if ( k >= 4.8 && k <= 5){
                 JOptionPane.showMessageDialog(null, "Download " + str, "Internet: " + "ds.pollub.pl", JOptionPane.INFORMATION_MESSAGE);
 
 
             }
-//            if (  k > 5){
-//                JOptionPane.showMessageDialog(null, "Overload daily limit " + str, "Internet: " + "ds.pollub.pl", JOptionPane.INFORMATION_MESSAGE);
-//
-//            }
-
-
 
         }
-
-
-
-
-
-
-
-
-
-
     }
     public static void tray(){
 
