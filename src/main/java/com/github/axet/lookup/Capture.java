@@ -74,8 +74,8 @@ public class Capture {
 //    }
     //fixed --->
 
-    static public BufferedImage load(Class<?> c, String url) throws IOException {
-        return load(new URL(url).openStream());
+    static public BufferedImage load(Class<?> c, URL url) throws IOException {
+        return load(url.openStream());
     }
 
     static public BufferedImage load(InputStream path) {
